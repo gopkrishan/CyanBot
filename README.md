@@ -1,5 +1,7 @@
-</p>
 
+<p align="center">
+  <img width="400" height="400" src="./functions/insta1.png">
+</p>
 <h1 align="center">Timetable and Information Retrieval Bot Beta 0.9.0: CyanBot </h1> 
 
 
