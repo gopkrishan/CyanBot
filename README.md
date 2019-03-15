@@ -1,6 +1,6 @@
 </p>
 
-<h1 align="center">Timetable and Information Retrieval Bot Beta 0.9.0: CyaNgBot </h1> 
+<h1 align="center">Timetable and Information Retrieval Bot Beta 0.9.0: CyanBot </h1> 
 
 
 <p align="center">
