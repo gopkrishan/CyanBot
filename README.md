@@ -9,7 +9,7 @@
   
 A Telegram chatbot to allow students to check timetable, event and student information stored in a database and send periodic reminders for lessons and events. 
 
-Please read the [Disclaimer](DISCLAIMER.md) before proceeding.
+Please read the [Disclaimer](DISCLAIMER.md) before using the bot.
 
 <hr>
 
