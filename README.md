@@ -2,7 +2,7 @@
 <p align="center">
   <img width="400" height="400" src="./functions/insta4.png">
 </p>
-<h1 align="center">Timetable and Information Retrieval Bot Beta 0.9.0: CyanBot </h1> 
+<h1 align="center">Timetable and Information Retrieval Bot Beta 0.1.0: CyanBot </h1> 
 
 
 <p align="center">
