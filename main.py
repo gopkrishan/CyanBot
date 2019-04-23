@@ -69,6 +69,14 @@ def shutdown():
 	updater.stop()
 	updater.is_idle = False
 
+#accepts a compliment with thanks
+def accept_compliment():
+        bot.send_message(chat_id=update.message.chat_id, text="😁 Thank you.")
+
+#accepts criticism
+def accept_criticism():
+        bot.send_message(chat_id=update.message.chat_id, text="😞 Sorry I did not live up to your expectations.")
+
 def stop(bot, update):
 	bot.send_message(chat_id=update.message.chat_id, text="stopping")
 	threading.Thread(target=shutdown).start()
@@ -104,6 +112,12 @@ dispatcher.add_handler(CommandHandler('datetime', datetime1))
 dispatcher.add_handler(CommandHandler('chatid', get_chat_id))
 
 dispatcher.add_handler(CommandHandler('stop', stop))
+
+dispatcher.add_handler(CommandHandler('goodbot', accept_compliment))
+dispatcher.add_handler(CommandHandler('badbot', accept_criticism))
+
 dispatcher.add_handler(MessageHandler(Filters.command, unknown))
+
+
 updater.idle()
 
