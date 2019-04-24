@@ -70,11 +70,11 @@ def shutdown():
 	updater.is_idle = False
 
 #accepts a compliment with thanks
-def accept_compliment():
+def accept_compliment(bot,update):
         bot.send_message(chat_id=update.message.chat_id, text="😁 Thank you.")
 
 #accepts criticism
-def accept_criticism():
+def accept_criticism(bot,update):
         bot.send_message(chat_id=update.message.chat_id, text="😞 Sorry I did not live up to your expectations.")
 
 def stop(bot, update):
